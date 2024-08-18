@@ -12,7 +12,7 @@ That's great, I can watch the stream, but I want to change SETTINGS!
 
 A scan of this device reveals ports 21, 23, 80, 554, 8080 as open. We have telnet. 
 
-I think it has been out for some time that Alarm.com default login credentials on at least older devices is 'root/adcvideo'. 
+Alarm.com default login credentials on at least older devices is 'root/adcvideo'.  
 
 Firmware version I have is '0100p2'. 
 
@@ -39,5 +39,7 @@ Change the 0's to 1's.
 
 Restart the camera, go to the IP address the camera is using in your browser and behold the WebUI in all it's glory. 
 
-Under the "Configuration" tab can be found all the adjustable parameters for the camera. No more messing with XML files! 
+Under the "Configuration" tab can be found all the adjustable parameters for the camera. 
+
+No more messing with XML files! 
 
