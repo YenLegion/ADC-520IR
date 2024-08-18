@@ -12,7 +12,7 @@ That's great, I can watch the stream, but I want to change SETTINGS!
 
 A scan of this device reveals ports 21, 23, 80, 554, 8080 as open. We have telnet. 
 
-Alarm.com default login credentials on at least older devices is 'root/adcvideo'.  
+Alarm.com default login credentials, at least on older devices, is 'root/adcvideo'.  
 
 Firmware version I have is '0100p2'. 
 
