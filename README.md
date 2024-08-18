@@ -9,17 +9,17 @@ I think it has been out for some time that Alarm.com default login credentials o
 
 Telnet login works using the above credentials. We have root access. 
 
-How to enable the WebUI: 
+# How to enable the WebUI: 
 
 In /etc/conf.d there are a bunch of XML files. 
 
 Make a copy of config_network.xml
 
-# cp config_network.xml config_network.xml.bak
+\# cp config_network.xml config_network.xml.bak
 
 Edit config_network.xml - [Bonus](http://www.linux-admins.net/2011/01/vi-cheat-sheet.html)
 
-# vi config_network.xml
+\# vi config_network.xml
 
 Towards the end of the file you will find these lines of text.
 
