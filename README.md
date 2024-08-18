@@ -1,11 +1,14 @@
 # Alarm.com ADC-520IR aka Vivotek IP8136 
-How to repurpose old Alarm.com camera without a subscription. 
+### How to repurpose old Alarm.com camera without a subscription. 
+
 
 I've had this ipcam for as long as I can remember, think I got it at a garage sale. 
 
 Thought it was useless till i learned of [this exploit](https://www.exploit-db.com/exploits/29516) which allows access to RTSP streams without authentication (wired). 
 
 That's great, I can watch the stream, but I want to change SETTINGS! 
+
+## How to enable the WebUI: 
 
 A scan of this device reveals ports 21, 23, 80, 554, 8080 as open. We have telnet. 
 
@@ -14,8 +17,6 @@ I think it has been out for some time that Alarm.com default login credentials o
 Firmware version I have is '0100p2'. 
 
 Telnet login works using the above credentials. We have root access. 
-
-# How to enable the WebUI: 
 
 In /etc/conf.d there are a bunch of XML files. 
 
