@@ -37,9 +37,4 @@ Towards the end of the file you will find these lines of text.
 ```
 Change the 0's to 1's.
 
-Restart the camera, go to the IP address the camera is using in your browser and behold the WebUI in all its glory. 
-
-Under the "Configuration" tab can be found all the adjustable parameters for the camera. 
-
-No more messing with XML files! 
-
+Restart the camera, go to the IP address the camera is using in your browser and behold the WebUI in all its glory.
