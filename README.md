@@ -8,15 +8,21 @@ Thought it was useless till i learned of [this exploit](https://www.exploit-db.c
 
 That's great, I can watch the stream, but I want to change SETTINGS! 
 
-## How to enable the WebUI: 
-
-A scan of this device reveals ports 21, 23, 80, 554, 8080 as open. We have telnet. 
-
-Alarm.com default login credentials, at least on older devices, is 'root/adcvideo'.  
-
 Firmware version I have is '0100p2'. 
 
-Telnet login works using the above credentials. We have root access. 
+## How to enable the WebUI: 
+
+Start by resetting the camera. There is a reset button on the back, can't miss it. 
+
+Plug ethernet cable into camera, let DHCP allocate an IP address to the camera. Find the address with Nmap or through your router. 
+
+Initially telnet is not enabled. To enable telnet go to http://IP_ADDRESS/cgi-bin/admin/mod_inetd.cgi?telnet=on
+
+Alarm.com default login credentials, at least on older devices, are 'root/adcvideo'. Enter those when the prompt appears.
+
+Now a scan of the device reveals ports 21, 23, 80, 554, 8080 as open. We have telnet on port 23.
+
+Telnet login works using the same credentials. We have root access. 
 
 In /etc/conf.d there are a bunch of XML files. 
 
